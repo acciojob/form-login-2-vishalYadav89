@@ -8,6 +8,6 @@ form.addEventListener("submit"  , function(e){
 	let number = document.getElementById("pnumber").value;
 	let mail  = document.getElementById("mail").value;
 
-	let message = "First Name:" + fname + " " +"Last Name:" +lname +" "+"Phone Number:"+number +" "+"Email ID:"+mail +" "
+	let message = "First Name: " + fname + " " +"Last Name: " +lname +" "+"Phone Number: "+number +" "+"Email ID: "+mail +" "
 	alert(message);
 });
